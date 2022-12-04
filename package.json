@@ -1,0 +1,22 @@
+{
+  "name": "illusion-server",
+  "version": "1.0.0",
+  "description": "illusion server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "illusion"
+  ],
+  "author": "illusion",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
