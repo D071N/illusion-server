@@ -13,7 +13,7 @@ var adminSocketId=null;
 const port = 1010;
 
 server.listen(process.env.PORT || port, (err) => {  if (err) return;log("Server Started : " + port);});
-app.get('/', (req, res) => res.send('Server is Running.....'))
+app.get('/', (req, res) => res.send('ERR0R_404'))
 
 io.on('connection', (socket) => {
     socket.on('adminJoin', ()=>{
